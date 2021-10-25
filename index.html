@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="spinner.css">
+    <title>Search Movie </title>
+</head>
+
+<body>
+    <header>
+        <h2>Search Movie</h2>
+        <form name="queryline">
+            <div class="input_btn_line">
+                <input type="text" name="queryField" id="queryField">
+                <select name="type" id="type">
+                    <option value="movie" name="movie">movie</option>
+                    <option value="series" name="series">series</option>
+                    <option value="episode" name="episode">episode</option>
+                </select>
+                <input type="submit" value="Search">
+            </div>
+
+        </form>
+    </header>
+    <div class="content_wrapper">
+    </div>
+    <div class="pagination_wrapper">
+
+    </div>
+    <div class="loader">Loading...</div>
+    <!-- <div class="wrapperTest">
+        <p>title</p>
+        <div class="gridDes">
+            <div>poster</div>
+            <div class="d-flex Description">
+                <span>class1</span>
+                <span>class2</span>
+                <span>class1</span>
+                <span>class2</span>
+            </div>
+        </div>
+
+    </div> -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
